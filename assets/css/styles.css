@@ -1,6 +1,7 @@
 /* HAMBURGER NAV*/
 
 @import url(https://fonts.googleapis.com/css?family=Raleway);
+
 h2 {
   vertical-align: center;
   text-align: center;
@@ -14,7 +15,30 @@ html, body {
 * {
   font-family: "Raleway";
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
 }
+  /*HERO*/
+  .hero {
+    background-image: url("../images/BKI.jpg");
+    opacity: 70%;
+    /* background-color: black; */
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative; 
+  }
+
+/* body {
+    font-size: 17px;
+    line-height: 1.6;
+    background-image: url('assets/images/BKI.jpg');
+   
+} */
 
 .top-nav {
   display: flex;
@@ -22,9 +46,9 @@ html, body {
   align-items: center;
   justify-content: space-between;
   background-color: #00BAF0;
-  background: linear-gradient(to left, #f46b45, #eea849);
+  background: linear-gradient(to left, #4A4E69,#9A8C98);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
- color: #FFF;
+  color: #FFF;
   height: 50px;
   padding: 1em;
 }
@@ -105,6 +129,7 @@ html, body {
     justify-content: center;
     align-items: center;
   }
+
   #menu-toggle ~ .menu li {
     height: 0;
     margin: 0;
@@ -112,12 +137,14 @@ html, body {
     border: 0;
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
   }
+
   #menu-toggle:checked ~ .menu li {
-    border: 1px solid #333;
+    border: 1px solid #F2E9E4;
     height: 2.5em;
     padding: 0.5em;
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
   }
+
   .menu > li {
     display: flex;
     justify-content: center;
@@ -125,11 +152,10 @@ html, body {
     padding: 0.5em 0;
     width: 100%;
     color: white;
-    background-color: #222;
+    background-color: #F2E9E4;
   }
   
   .menu > li:not(:last-child) {
-    border-bottom: 1px solid #444;
+    border-bottom: 1px solid #F2E9E4;
   }
 
-  /* HAMBURGER NAV*/
