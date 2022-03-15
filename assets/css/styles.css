@@ -1,4 +1,60 @@
 /* HAMBURGER NAV*/
+* {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+    font-size: 17px;
+    line-height: 1.6;
+   
+}
+    /*HERO*/
+    .hero {
+      background-image: url("../images/BKI.jpg");
+      opacity: 70%;
+      /* background-color: black; */
+      height: 600px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      position: relative; 
+    }
+
+.hero div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  opacity: 70%;
+  padding: 20px;
+  font-size: 20px;
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#form {
+  margin-left:  200px;
+  margin-right:  200px;
+}
+
+
+
+.reviews {
+  display: flex;
+}
+
+.reviews div {
+  flex-direction: row;
+}
+
 
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 
@@ -12,33 +68,7 @@ html, body {
   height: 100%;
 }
 
-* {
-  font-family: "Raleway";
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-decoration: none;
-}
-  /*HERO*/
-  .hero {
-    background-image: url("../images/BKI.jpg");
-    opacity: 70%;
-    /* background-color: black; */
-    height: 600px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative; 
-  }
 
-/* body {
-    font-size: 17px;
-    line-height: 1.6;
-    background-image: url('assets/images/BKI.jpg');
-   
-} */
 
 .top-nav {
   display: flex;
