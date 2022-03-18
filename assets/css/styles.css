@@ -24,9 +24,20 @@ body {
       background-size: cover;
       background-attachment: fixed;
       position: relative; 
+
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      /* align-items: flex-end;
+      background-position: 80%; */
     }
 
-.hero div {
+  
+   
+    
+
+    
+/* .hero div {
   border-radius: 5px;
   background-color: #f2f2f2;
   opacity: 70%;
@@ -38,15 +49,42 @@ body {
   justify-content: center;
   align-items: center;
 
-}
+} */
 
-#form {
+/* #form {
   margin-left:  200px;
   margin-right:  200px;
+} */
+
+.submission-form {
+  max-width: 500px;
+  margin: 2rem auto;
+  border: 2px solid #4A4E69;
+  background-color: #FFF;
+  padding: 2rem;
+}
+.submission-form label {
+  display: block;
 }
 
+.submission-form input, textarea {
+  display: block;
+  width: 100%;
+}
 
-
+#sendBtn {
+  background: #9A8C98;
+  border: 0;
+  padding: .5rem;
+  color: white;
+  margin: 1rem 0;
+  width: auto;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+#sendBtn:hover {
+  background-color: #b493af;
+}
 .reviews {
   display: flex;
 }
