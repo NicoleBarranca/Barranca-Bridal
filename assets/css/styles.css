@@ -107,23 +107,33 @@ body {
   min-width: 300px;
 }
 
-.home-services h1 {
+.home-services h2 {
   font-size: 36px;
   display: flex;
   justify-content: center;
   padding: 50px;
 }
 
-.home-services div {
+.home-services article {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
+.service-categories  {
+  margin: 20px;
+  background: #b493af;
+  color: white;
+  flex: 1;
+}
 
-
-
-
+.categories  {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 
