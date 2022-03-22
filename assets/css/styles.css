@@ -36,14 +36,16 @@ body {
     }
 
     .hero div {
-      align-self: auto;
+      display: flex;
+      width: 100% auto;
+      align-items: flex-end;
     }
 
 .submission-form {
-  width: 40%;
+  width: 100%;
   /* max-width: 450px; 
   max-height: 500px;
-  min-width: 200px; */
+  min-width: 200px;  */
   margin: 2rem auto;
   border: 2px solid white;
   background-color: rgba(34, 34, 59, .5);
@@ -52,6 +54,7 @@ body {
  margin-left: 500px;
  line-height: 3px;
  color: white;
+
 
 }
 .submission-form label {
@@ -123,8 +126,25 @@ body {
 .service-categories  {
   margin: 20px;
   background: #b493af;
+  width: 500px;
   color: white;
   flex: 1;
+}
+.service-categories img {
+  width: 100%;
+}
+
+.service-des {
+  padding: 25px;
+  line-height: 1.3;
+  
+}
+.service-des h3 {
+  font-size: 28px;
+}
+
+.service-des p {
+  font-size: 17px;
 }
 
 .categories  {
