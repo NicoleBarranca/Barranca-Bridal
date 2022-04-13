@@ -1,0 +1,23 @@
+{
+  "name": "barranca-bridal",
+  "version": "1.0.0",
+  "description": "C5DEDD DBE7E4 #F0EFEB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicoleBarranca/Barranca-Bridal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicoleBarranca/Barranca-Bridal/issues"
+  },
+  "homepage": "https://github.com/NicoleBarranca/Barranca-Bridal#readme",
+  "dependencies": {
+    "handlebars": "^4.7.7"
+  }
+}
