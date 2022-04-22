@@ -20,6 +20,10 @@
       crossorigin="anonymous"
       defer
     ></script>
+    <script
+      src="https://kit.fontawesome.com/ee0c116e6a.js"
+      crossorigin="anonymous"
+    ></script>
   </header>
   <body>
     <!--NAVBAR-->
@@ -96,17 +100,12 @@
         <p class="card-text">Last updated 3 mins ago</p>
       </div>
     </div> -->
-    <div class="jumbotron">
+    <div class="jumbotron mb-5">
       <img
         src="public/images/Hero-BarBri.jpg"
         class="img-fluid"
         alt="Responsive image"
       />
-      <h1 class="display-4">Fluid jumbotron</h1>
-      <p class="lead">
-        This is a modified jumbotron that occupies the entire horizontal space
-        of its parent.
-      </p>
     </div>
 
     <!-- <div class="hero-image jumbotron jumbotron-fluid">
@@ -119,29 +118,126 @@
       </div>
     </div> -->
 
-
     <!--services section-->
-    <div class="card" style="width: 18rem;">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Bridal Services</h5>
-        <p class="card-text">Description of services</p>
-        <a href="#" class="btn btn-primary">Take a Look</a>
+    <div
+      class="container d-flex d-md-flexjustify-content-center justify-content-sm-center flex-sm-wrap justify-content-between"
+    >
+      <div class="row">
+        <div class="col col-md-6 mt-4 d-flex align-self-stretch">
+          <div class="card" style="width: 18rem">
+            <img src="public/images/Wed2.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Bridal Services</h5>
+              <p class="card-text">
+                On your special day, you should feel as radient on the outside
+                as you feel on the inside...
+              </p>
+              <a href="#" class="btn btn-outline-dark">Take a Look</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-md-6 mt-4 d-flex align-self-stretch">
+          <div class="card" style="width: 18rem">
+            <img src="public/images/cool1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Color Services</h5>
+              <p class="card-text">
+                From blonding to a simple root touch up... I've got you
+                covered...
+              </p>
+              <a href="#" class="btn btn-outline-dark">Take a Look</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="card" style="width: 18rem;">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Color Services</h5>
-        <p class="card-text">Description of services</p>
-        <a href="#" class="btn btn-primary">Take a Look</a>
+    <!--work slides-->
+    <div class="container mt-5 mb-5">
+      <div>
+        <h1 class="display-6 mb-3 text-center">Some of our creations...</h1>
+
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide slides-home"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="public/images/blond2.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="public/images/blond3.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="public/images/blond1.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
       </div>
-<!--work slides-->
+    </div>
     <!--FOOTER-->
     <footer
       class="navbar d-flex d-sm-flex justify-content-center navbar-expand-lg navbar-light bg-white"
     >
       <div class="d-flex d-sm-flex flex-column">
+        <div class="d-flex justify-content-center">
+          <a href=""><i class="fa-brands fa-facebook-square"></i></a>
+          <a href=""><i class="fa-brands fa-instagram-square"></i></a>
+        </div>
+
         <div
           class="d-flex d-sm-flex justify-content-center justify-content-sm-center"
         >

@@ -3,3 +3,12 @@
   background-position: bottom;
   background-size: cover;
 }
+
+.slides-home {
+  max-width: 50vw;
+  max-height: 100px;
+}
+
+.icons-co {
+  background-color: #9a8c98;
+}
