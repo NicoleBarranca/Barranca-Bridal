@@ -1,0 +1,5 @@
+.hero-image {
+  background-image: url("images/Hero-BarBri.jpg");
+  background-position: bottom;
+  background-size: cover;
+}
