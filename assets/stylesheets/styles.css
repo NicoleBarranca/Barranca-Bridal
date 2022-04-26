@@ -1,0 +1,24 @@
+.slides-home {
+  max-width: 50vw;
+  max-height: 100px;
+}
+
+.icons-co {
+  background-color: #9a8c98;
+}
+
+.hero {
+  background-image: url("../images/Hero-BarBri.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  background-attachment: fixed;
+  background-position: 80%;
+}
+
+.bbb {
+  background-color: aqua;
+}
