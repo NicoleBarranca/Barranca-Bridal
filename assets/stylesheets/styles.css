@@ -1,6 +1,5 @@
 .slides-home {
-  max-width: 50vw;
-  max-height: 100px;
+  max-width: 70vw;
 }
 
 .icons-co {
@@ -11,14 +10,23 @@
   background-image: url("../images/Hero-BarBri.jpg");
   background-size: cover;
   background-position: center;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: flex-start;
+  float: right;
+  /* flex-wrap: wrap; */
+  /* align-items: flex-start; */
   background-attachment: fixed;
-  background-position: 80%;
+  /* background-position: 80%; */
+  height: 80vh;
+  width: 100vw;
+  margin-bottom: 40px;
 }
 
-.bbb {
-  background-color: aqua;
+.hero div {
+  margin-left: 100px;
+  margin-top: 300px;
+}
+
+.color-intro {
+  margin: 50px 40px 50px 40px;
+  display: flex;
+  justify-content: center;
 }
