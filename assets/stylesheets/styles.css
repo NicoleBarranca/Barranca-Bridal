@@ -3,7 +3,7 @@
 }
 
 .icons-co {
-  background-color: #9a8c98;
+  color: #9a8c98;
 }
 
 .hero {
@@ -27,6 +27,26 @@
 
 .color-intro {
   margin: 50px 40px 50px 40px;
+  display: flex;
+  justify-content: center;
+}
+
+/* .price-list {
+  display: flex;
+  flex-direction: row;
+  margin: 100px auto 100px 200px;
+}
+
+.price-list div {
+  display: flex;
+  flex-direction: column;
+  width: 500px; */
+
+.price-list {
+  margin-top: 100px;
+}
+
+#bride {
   display: flex;
   justify-content: center;
 }
