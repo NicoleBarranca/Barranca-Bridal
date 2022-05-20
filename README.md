@@ -3,7 +3,7 @@
 
 </p>
 
-<h1 align="center">Barranca Bridal</h1>
+<h1 align="center">Salon144</h1>
 
 <div align="center">
 
