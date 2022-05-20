@@ -4,6 +4,10 @@
 
 .icons-co {
   color: #9a8c98;
+  size: 50px, 50px;
+}
+.icons-co:hover {
+  color: #4a4e69;
 }
 
 .hero {
@@ -24,6 +28,13 @@
   margin-left: 100px;
   margin-top: 600px;
   color: white;
+}
+
+.heroText {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .color-intro {
@@ -50,4 +61,16 @@
 #bride {
   display: flex;
   justify-content: center;
+}
+
+.intro {
+  text-shadow: 3px 3px black;
+}
+
+.sub-intro {
+  text-shadow: 3px 3px black;
+  max-width: 40%;
+  color: white;
+  font-size: 23px;
+  margin-bottom: 20px;
 }
